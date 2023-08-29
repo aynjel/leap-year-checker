@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Leap Year Calculator
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>
+            Leap Year Calculator
+        </h1>
+        <form id="leap-year-form">
+            <fieldset>
+                <legend>
+                    Enter a Year
+                </legend>
+                <input type="number" id="year" name="year" placeholder="Year">
+                <button type="submit">
+                    Check
+                </button>
+            </fieldset>
+        </form>
+
+        <div class="result">
+            <div class="result-content">
+                <span id="year-result"></span><span id="leap-year-result"></span>
+                <button id="reset">
+                    Reset
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
